@@ -21,7 +21,10 @@
               <button @click="counter++" class="btn me-2 btn-sm btn-primary">
                 +
               </button>
-              <button @click="counter--" class="btn btn-sm btn-danger">
+              <button
+                @click="counter >0 ? counter-- : 0"
+                class="btn btn-sm btn-danger"
+              >
                 -
               </button>
             </div>

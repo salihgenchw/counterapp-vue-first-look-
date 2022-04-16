@@ -1,7 +1,15 @@
 const app = Vue.createApp({
-    data() {
-        return {
-            message: 'Hello Vue.js!'
-        }
-    }
-}).mount('#app');
+  data() {
+    return {
+      counter: 0,
+    };
+  },
+//   methods: {
+//     inc() {
+//       this.counter++;
+//     },
+//     dec() {
+//       this.counter--;
+//     },
+//   },
+}).mount("#app");
